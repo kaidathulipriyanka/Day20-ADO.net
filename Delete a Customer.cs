@@ -17,7 +17,7 @@ namespace ADO.Net_PracticeProblem
 
                 using (SqlCommand command = new SqlCommand("DELETE FROM Customer WHERE CustomerName = @CustomerName", connection))
                 {
-                    command.Parameters.AddWithValue("@CustomerName", "Battu Sairam");
+                    command.Parameters.AddWithValue("@CustomerName", "Priyanka");
                     command.ExecuteNonQuery();
                 }
             }

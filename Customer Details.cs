@@ -14,9 +14,9 @@ namespace ADO.Net_PracticeProblem
 
                 using (SqlCommand command = new SqlCommand("INSERT INTO Customer (CustomerName, Phone, Address) VALUES (@CustomerName, @Phone, @Address)", connection))
                 {
-                    command.Parameters.AddWithValue("@CustomerName", "Battu Sairam");
-                    command.Parameters.AddWithValue("@Phone", "7036703736");
-                    command.Parameters.AddWithValue("@Address", "11-2 hyd St");
+                    command.Parameters.AddWithValue("@CustomerName", "Priyanka");
+                    command.Parameters.AddWithValue("@Phone", "8179664964");
+                    command.Parameters.AddWithValue("@Address", "19-376 STV nagar");
 
                     command.ExecuteNonQuery();
                 }
